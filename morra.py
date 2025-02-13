@@ -27,11 +27,4 @@ def deteremina_vincitore(giocatore, computer):
 
 
 
-def verificaMetodo(variabile, nomeMetodo):
-    metodiDisponibili = dir(variabile)
-    if nomeMetodo in metodiDisponibili:
-        print("La", type(variabile), "NON offre il metodo," nomeMetodo)
-
-
-
 
